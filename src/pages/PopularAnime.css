@@ -1,0 +1,29 @@
+.anime-row {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.anime-row {
+    display: flex;
+
+}
+
+
+.anime-card {
+    margin: 5px;
+    border-radius: 8px;
+    padding: 5px;
+    width: 200px;
+    transition: all ease-out .5s;
+}
+
+.anime-card:hover {
+    transform: scale(1.05);
+    box-shadow: red 0px 5px 10px;
+}
+
+.anime-image {
+    width: 100%;
+    height: auto;
+}
